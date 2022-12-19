@@ -139,14 +139,14 @@ sum  = 0
 #     print("exist")
 # else:
 #     print("doesn't exist ")
-lis2 = list([1,7,2,3])
-lis3 = [1,2,"shimaa"]
-lis4 = lis2 +lis3
-print(lis4)
-lis2.extend(lis3)
-lis3+=lis2
-print(lis2)
-print(lis3)
+# lis2 = list([1,7,2,3])
+# lis3 = [1,2,"shimaa"]
+# lis4 = lis2 +lis3
+# print(lis4)
+# lis2.extend(lis3)
+# lis3+=lis2
+# print(lis2)
+# print(lis3)
 # lis2.sort(reverse=True)
 # print(7 in lis2)
 
@@ -158,4 +158,7 @@ print(lis3)
 # st = str(st)
 # print(type(st))
 # print(st)
-print([] == False)
+# print([] == False)
+# def sum (num1 = 1 , num2=2):
+#     print(num1+num2)
+# sum(4,9)
