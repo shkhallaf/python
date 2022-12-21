@@ -209,10 +209,10 @@ def myrange(end,start=0,step=1):
 
 
 
-def myrange(x=0,y=0,z=0,a=0,s=0):
-    if type(x)==type(0):
-        print("integer")
-    return x+y+z+a+s
+# def myrange(x=0,y=0,z=0,a=0,s=0):
+#     if type(x)==type(0):
+#         print("integer")
+#     return x+y+z+a+s
 # print(myrange(1))
 # print(myrange(1,2))
 # print(myrange(1,2,3))
@@ -222,12 +222,12 @@ def myrange(x=0,y=0,z=0,a=0,s=0):
 # print(isinstance("1",int))
 # print(type(1))
 
-
-# def funWithUlimitedArgs(*hazlqomm):
-#     sum = 0
-#     for ele in hazlqomm:
-#         sum +=ele
-#     print(sum)
+user = "shimaa"
+def funWithUlimitedArgs(*hazlqomm):
+    sum = 0
+    for ele in hazlqomm:
+        sum +=ele
+    print(sum)
 # funWithUlimitedArgs()
 # funWithUlimitedArgs(1)
 # funWithUlimitedArgs(1,2)
@@ -235,9 +235,42 @@ def myrange(x=0,y=0,z=0,a=0,s=0):
 
 
 
-def funWithnamesandcountofargs(**hazlqomm):
-    for key , value in hazlqomm.items():
-        print (f"{key}  =  {value}")
-    print("------------------")
-funWithnamesandcountofargs(name = "shimaa")
-funWithnamesandcountofargs(name = "ahmed"  , age =23)
+# def funWithnamesandcountofargs(**hazlqomm):
+#     for key , value in hazlqomm.items():
+#         print (f"{key}  =  {value}")
+#     print("------------------")
+# funWithnamesandcountofargs(name = "shimaa")
+# funWithnamesandcountofargs(name = "ahmed"  , age =23)
+# import folder.d.day1 as day1
+# print (day1.sum)
+# from folder.d.day1 import sum,x,y
+# print(sum , x , y)
+
+# print(name)
+# try:
+#     print(name)
+# except:
+#     print("name is not known")
+# print("after try ")
+# print("after try ")
+# print("after try ")
+# print("after try ")
+# print("after try ")
+
+
+
+
+# fl = open("some_file.txt", 'w')
+# fl.write("This is new xxxxxx content")
+# fl.seek(8)
+# fl.write("old")
+# fl.close()
+# fl = open("some_file.txt", 'a')
+# fl.write("\n content is appended")
+
+# for i in range (3):
+#     print(i)
+#     pass
+#     print(i+1)
+
+
